@@ -3,7 +3,7 @@
 ```python
 openai_adapter.py
 
-openai.api_key = 'API KEY'  # Вставьте свой ключ
+openai.api_key = 'API KEY'  # Вставляем ключ
 ```
 ### 2.
 ```text
