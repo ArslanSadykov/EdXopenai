@@ -1,6 +1,6 @@
 class EdxAdapter:
     """
-    EDX адаптер - логик получения данных с EDX API
+    EDX адаптер - логика получения данных с EDX API
     """
     def get_data(self, text) -> str:
         """
