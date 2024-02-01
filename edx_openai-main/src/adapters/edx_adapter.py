@@ -22,7 +22,7 @@ class EdxAdapter:
         Вызов API Open edX для получения ответа на вопрос
         """
         # API Open edX имеет URL для получения ответа на вопрос
-        edx_api_url = "http://your-edx-api-url/get_answer"
+        edx_api_url = "https://apps.edx.bronzebeard.pro/ora-grading/block-v1:talent_hub+tl01+2024_C1+type@openassessment+block@7b7b608626b546ddb7acb23b5f4d8360"
 
         # Формируем запрос
         payload = {"question_text": question_text}
@@ -41,7 +41,7 @@ class EdxAdapter:
 edx_adapter = EdxAdapter()
 
 # Предположим, у нас есть вопрос
-question_text = "Как работает фотосинтез?"
+question_text = "Какой язык программирования самый популярный?"
 
 # Получаем ответ от Open edX с использованием нашего адаптера
 answer_from_edx = edx_adapter.get_data(question_text)
